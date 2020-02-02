@@ -21,5 +21,10 @@ namespace TextAppend
         {
             richTextBox1.AppendText(textBox1.Text);
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            richTextBox1.ResetText();
+        }
     }
 }
